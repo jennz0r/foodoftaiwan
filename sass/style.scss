@@ -1,5 +1,18 @@
 @import 'variables';
 
+body {
+	background: url('../photos/map05.jpg') no-repeat top center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.white-bkgd {
+	background-color: $off-white;
+	border-radius: $global-radius;
+}
+
 .orange-bkgd {
 	background-color: $orange;
 }
@@ -13,6 +26,6 @@
 }
 
 .top-bot-padding {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em; 
+	padding-top: 1em;
+	padding-bottom: 1em; 
 }
