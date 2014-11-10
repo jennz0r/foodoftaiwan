@@ -3,3 +3,10 @@
 
 .teal-bkgd {
   background-color: #03d3d1; }
+
+.full-width-col {
+  padding: 0; }
+
+.top-bot-padding {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; }
