@@ -5,6 +5,9 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
+.text-padding {
+  margin: 1em; }
+
 .white-bkgd {
   background-color: #f4fffa;
   border-radius: 8px; }
@@ -15,9 +18,10 @@ body {
 .teal-bkgd {
   background-color: #03d3d1; }
 
-.full-width-col {
-  padding: 0; }
+@media only screen and (min-width: 40.063em) {
+  .full-width-col {
+    padding: 0; }
 
-.top-bot-padding {
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  .top-bot-padding {
+    padding-top: 1em;
+    padding-bottom: 1em; } }

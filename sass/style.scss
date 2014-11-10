@@ -8,6 +8,10 @@ body {
 	background-size: cover;
 }
 
+.text-padding {
+	margin: 1em;
+}
+
 .white-bkgd {
 	background-color: $off-white;
 	border-radius: $global-radius;
@@ -21,11 +25,12 @@ body {
 	background-color: $teal;
 }
 
-.full-width-col {
-	padding: 0;
-}
-
-.top-bot-padding {
-	padding-top: 1em;
-	padding-bottom: 1em; 
+@media only screen and (min-width: 40.063em) {
+	.full-width-col {
+		padding: 0;
+	}
+	.top-bot-padding {
+		padding-top: 1em;
+		padding-bottom: 1em; 
+	}
 }
