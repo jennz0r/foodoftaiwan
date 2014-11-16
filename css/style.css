@@ -1,16 +1,19 @@
 body {
-  background: url("../photos/map05.jpg") no-repeat top center fixed;
+  background: url("../img/background.jpg") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
+.full-width-col {
+  padding: 0; }
+
 .text-padding {
   margin: 1em; }
 
 .white-bkgd {
-  background-color: #f4fffa;
-  border-radius: 8px; }
+  background-color: rgba(244, 255, 250, 0.8);
+  border-radius: 5px; }
 
 .orange-bkgd {
   background-color: #d67905; }
@@ -19,9 +22,6 @@ body {
   background-color: #03d3d1; }
 
 @media only screen and (min-width: 40.063em) {
-  .full-width-col {
-    padding: 0; }
-
   .top-bot-padding {
     padding-top: 1em;
     padding-bottom: 1em; } }

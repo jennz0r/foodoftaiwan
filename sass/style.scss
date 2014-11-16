@@ -1,11 +1,15 @@
 @import 'variables';
 
 body {
-	background: url('../photos/map05.jpg') no-repeat top center fixed; 
+	background: url('../img/background.jpg') no-repeat top center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.full-width-col {
+	padding: 0;
 }
 
 .text-padding {
@@ -13,7 +17,7 @@ body {
 }
 
 .white-bkgd {
-	background-color: $off-white;
+	background-color: rgba(244,255,250,0.8);
 	border-radius: $global-radius;
 }
 
@@ -26,9 +30,6 @@ body {
 }
 
 @media only screen and (min-width: 40.063em) {
-	.full-width-col {
-		padding: 0;
-	}
 	.top-bot-padding {
 		padding-top: 1em;
 		padding-bottom: 1em; 
