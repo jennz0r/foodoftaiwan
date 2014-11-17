@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 }
 
+
 .full-width-col {
 	padding: 0;
 }
@@ -27,6 +28,10 @@ body {
 
 .teal-bkgd {
 	background-color: $teal;
+}
+
+.slick-dots {
+	margin-left: 0;
 }
 
 @media only screen and (min-width: 40.063em) {

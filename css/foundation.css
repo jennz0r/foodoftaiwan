@@ -2713,7 +2713,7 @@ h6 {
   font-size: 1rem; }
 
 .subheader {
-  line-height: 2.4;
+  line-height: 1.7;
   font-family: "La Belle Aurore", cursive;
   font-weight: normal;
   margin-top: 0.2rem;
@@ -2881,7 +2881,7 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75rem; }
+    font-size: 2.5rem; }
 
   h2 {
     font-size: 2.3125rem; }
@@ -2947,7 +2947,6 @@ blockquote p {
 
   @page {
     margin: 0.5cm; }
-
   p,
   h2,
   h3 {
