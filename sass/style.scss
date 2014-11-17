@@ -1,7 +1,7 @@
 @import 'variables';
 
 body {
-	background: url('../img/background.jpg') no-repeat top center fixed; 
+	background: url('../img/homepage/background.jpg') no-repeat top center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -14,7 +14,8 @@ body {
 }
 
 .text-padding {
-	margin: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .white-bkgd {
