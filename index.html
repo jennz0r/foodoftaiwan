@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Food of Taiwan</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.3.14/slick.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700|La+Belle+Aurore|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|La+Belle+Aurore|Pacifico' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr.js"></script>
   </head>
 
@@ -39,8 +39,8 @@
       </nav>
     </div>
   
-    <div class="row top-bot-padding">
-      <div class="medium-7 large-8 columns white-bkgd">
+    <div class="row top-bot-padding" data-equalizer>
+      <div class="medium-7 large-6 columns white-bkgd" data-equalizer-watch>
         <div class="text-padding">
           <h1>The Food of Taiwan</h1>
           <h3 class="subheader">Recipes from the Beautiful Island</h3>
@@ -48,37 +48,42 @@
           <p>
             Taiwan is home to rich and diverse flavors, spanning centuries of fascinating history. Explore the traditions and nuances of its cuisine through recipes, photos, and lore.
           </p>
-          
         </div>
       </div>
-      <div class="medium-5 large-4 columns">
-        <div class="slicky">
-          <div><img src="photos/book.jpg" style="padding-top:3.5em;"></div>
-          <div><img src="img/yaojong-web.jpg"></div>
-          <div><img src="img/mangoice-web.jpg"></div>
-          <div><img src="img/congee-web.jpg"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row top-bot-padding">
-      <div class="columns white-bkgd">
-        <div class="text-padding">
-          <h2>About the Book</h2>
-          <h3 class="subheader">It's not just about bubble tea.</h3>
-          <p>For all that’s been said and done about the food of China, relatively little has been recorded, elucidated, praised, defended, or savored in the Western world with regards to the food of Taiwan—then and now. This book takes a long look at the history of Taiwan and its cuisine and how it’s manifested today through easy-to-follow recipes. Through the lens of its half-Taiwanese American food writer author, Cathy Erway, Taiwanese food comes into focus. We explore the social and environmental factors that led to its being, and celebrate the proud cultures that have mingled within it.</p>
-          <p>Many today recognize Taiwan as a stronghold of traditional arts and culture from China, which it deserves the prestige for preserving. But there is another side to Taiwanese cuisine, one based on humble, practical peasant foods that have sustained its populations for the many torn centuries to today. This cuisine transcends political or ethnic boundaries, and it continues to grow in myriad ways. It also exemplifies the simple comfort foods of my youth. This is the cuisine that The Food of Taiwan spotlights.</p>
-          <p>Understanding that there is no real “one way” to make a certain dish, no matter how famous or fabled it is, we warmly invite the opinions of many in Taiwanese cookery. If you have suggestions about dishes that are or aren’t included in The Food of Taiwan, I look forward to sharing them on this website or this book’s Facebook page, or cooking with you sometime.</p>
-        </div>
+      <div class="medium-5 large-6 columns" data-equalizer-watch>
+        <img src="photos/book.jpg">
       </div>
     </div>
 
     <div class="row">
       <div class="columns">
         <div class="slicky">
-          <div><img src="photos/baolady.jpg"></div>
-          <div><img src="photos/dofufa.jpg"></div>
-          <div><img src="photos/stalls.jpg"></div>
+          <div><img src="img/baolady-web.jpg"></div>
+          <div><img src="img/stalls-web.jpg"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row top-bot-padding">
+      <div class="small-12 columns white-bkgd">
+        <div class="text-padding">
+          <div class="row">
+            <div class="medium-4 columns">
+              <div class="slicky">
+                <div><img src="img/mangoice-web.jpg"></div>
+                <div><img src="img/bittermelon-web.jpg"></div>
+                <div><img src="img/yaojong-web.jpg"></div>
+                <div><img src="img/guaboa-web.jpg"></div>
+              </div>
+            </div>
+            <div class="medium-8 columns">
+              <h2>About the Book</h2>
+              <h3 class="subheader">It's not just about bubble tea.</h3>
+              <p>For all that’s been said and done about the food of China, relatively little has been recorded, elucidated, praised, defended, or savored in the Western world with regards to the food of Taiwan—then and now. This book takes a long look at the history of Taiwan and its cuisine and how it’s manifested today through easy-to-follow recipes. Through the lens of its half-Taiwanese American food writer author, Cathy Erway, Taiwanese food comes into focus. We explore the social and environmental factors that led to its being, and celebrate the proud cultures that have mingled within it.</p>
+              <p>Many today recognize Taiwan as a stronghold of traditional arts and culture from China, which it deserves the prestige for preserving. But there is another side to Taiwanese cuisine, one based on humble, practical peasant foods that have sustained its populations for the many torn centuries to today. This cuisine transcends political or ethnic boundaries, and it continues to grow in myriad ways. It also exemplifies the simple comfort foods of my youth. This is the cuisine that The Food of Taiwan spotlights.</p>
+              <p>Understanding that there is no real “one way” to make a certain dish, no matter how famous or fabled it is, we warmly invite the opinions of many in Taiwanese cookery. If you have suggestions about dishes that are or aren’t included in The Food of Taiwan, I look forward to sharing them on this website or this book’s Facebook page, or cooking with you sometime.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -87,7 +92,7 @@
       <div class="columns">
         <div class="row teal-bkgd" data-equalizer>
           <div class="medium-5 large-6 columns full-width-col" data-equalizer-watch>
-            <img src="img/cathy-web.jpg"/>
+            <img src="img/homepage/cathy-web.jpg"/>
           </div>
           <div class="medium-7 large-6 columns" data-equalizer-watch>
             <div class="text-padding">
@@ -111,7 +116,7 @@
             </div>
           </div>
           <div class="medium-5 large-6 columns full-width-col" data-equalizer-watch>
-            <img src="img/pete-web.jpg"/>
+            <img src="img/homepage/pete-web.jpg"/>
           </div>
         </div>
       </div>
