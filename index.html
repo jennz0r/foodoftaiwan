@@ -44,9 +44,8 @@
         <div class="text-padding">
           <h1>The Food of Taiwan</h1>
           <h3 class="subheader">Recipes from the Beautiful Island</h3>
-          <img src="photos/book.jpg" id="book-img" class="show-for-small-only">
+          <img src="photos/book.jpg" id="book-img-mobile" class="show-for-small-only">
           <p>A cookbook by Cathy Erway, published by Houghton-Mifflin Harcourt</p>
-
           <p class="show-for-medium-up">
             One of the first books published in the US to offer a comprehensive guide on the topic, The Food of Taiwan takes a long look at a fascinating cuisine.
           </p>
@@ -60,7 +59,7 @@
       </div>
     </div>
 
-    <div class="row show-for-medium-up">
+    <div class="row top-bot-padding show-for-medium-up">
       <div class="columns">
         <div class="slicky">
           <div><img src="img/baolady-web.jpg"></div>
@@ -147,6 +146,16 @@
           fade: true,
           slide: 'div',
           cssEase: 'linear'
+        });
+        $('.auto-slicky').slick({
+          dots: true,
+          speed: 500,
+          infinite: true,
+          fade: true,
+          slide: 'div',
+          cssEase: 'linear',
+          autoplay: true,
+          autoplaySpeed: 5000
         });
       });
     </script>

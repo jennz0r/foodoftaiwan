@@ -27,7 +27,11 @@ body {
 .slick-dots {
   margin-left: 0; }
 
-@media only screen and (max-width: 10.063em) {
+@media only screen and (max-width: 30.063em) {
+  #book-img-mobile {
+    margin: 1em 0;
+    border-radius: 5px; }
+
   .full-width-col {
     padding: 0; } }
 @media only screen and (min-width: 40.063em) {
