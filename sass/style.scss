@@ -37,7 +37,11 @@ body {
 	margin-left: 0;
 }
 
-@media only screen and (max-width: 10.063em) {
+@media only screen and (max-width: 30.063em) {
+	#book-img-mobile {
+		margin: 1em 0;
+		border-radius: $global-radius;
+	}
 	.full-width-col {
 		padding: 0;
 	}
