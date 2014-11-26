@@ -26,7 +26,7 @@ body {
 }
 
 .light-green-bkgd {
-	background-color: rgba(227,233,212,0.8);
+	background-color: rgba(227,233,218,0.8);
 	border-radius: $global-radius;
 }
 
@@ -42,15 +42,28 @@ body {
 	margin-left: 0;
 }
 
+#press-quotes {
+	margin: 0 1em;
+}
+
 .quote {
-	margin-bottom: 0.4em;
+	margin: 0 0 0.4em 1.7em;
+	font-size: 1.1em;
 	font-style: italic;
 }
 
 .quote-author {
 	display: block;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	text-align: right;
+}
+
+.quote-img-left {
+	margin: 0;
+}
+
+.quote-img-right {
+	margin-left: 0.3em;
 }
 
 .press-list {
