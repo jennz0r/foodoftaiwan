@@ -18,6 +18,10 @@ body {
   background-color: rgba(244, 255, 250, 0.8);
   border-radius: 5px; }
 
+.light-green-bkgd {
+  background-color: rgba(227, 233, 212, 0.8);
+  border-radius: 5px; }
+
 .orange-bkgd {
   background-color: #d67905; }
 
@@ -26,6 +30,18 @@ body {
 
 .slick-dots {
   margin-left: 0; }
+
+.quote {
+  margin-bottom: 0.4em;
+  font-style: italic; }
+
+.quote-author {
+  display: block;
+  margin-bottom: 2em;
+  text-align: right; }
+
+.press-list {
+  list-style-type: none; }
 
 @media only screen and (max-width: 30.063em) {
   #book-img-mobile {

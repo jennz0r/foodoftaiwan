@@ -25,6 +25,11 @@ body {
 	border-radius: $global-radius;
 }
 
+.light-green-bkgd {
+	background-color: rgba(227,233,212,0.8);
+	border-radius: $global-radius;
+}
+
 .orange-bkgd {
 	background-color: $orange;
 }
@@ -35,6 +40,21 @@ body {
 
 .slick-dots {
 	margin-left: 0;
+}
+
+.quote {
+	margin-bottom: 0.4em;
+	font-style: italic;
+}
+
+.quote-author {
+	display: block;
+	margin-bottom: 2em;
+	text-align: right;
+}
+
+.press-list {
+	list-style-type: none;
 }
 
 @media only screen and (max-width: 30.063em) {
