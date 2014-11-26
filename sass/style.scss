@@ -25,6 +25,11 @@ body {
 	border-radius: $global-radius;
 }
 
+.light-green-bkgd {
+	background-color: rgba(227,233,218,0.8);
+	border-radius: $global-radius;
+}
+
 .orange-bkgd {
 	background-color: $orange;
 }
@@ -35,6 +40,34 @@ body {
 
 .slick-dots {
 	margin-left: 0;
+}
+
+#press-quotes {
+	margin: 0 1em;
+}
+
+.quote {
+	margin: 0 0 0.4em 1.7em;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.quote-author {
+	display: block;
+	margin-bottom: 1em;
+	text-align: right;
+}
+
+.quote-img-left {
+	margin: 0;
+}
+
+.quote-img-right {
+	margin-left: 0.3em;
+}
+
+.press-list {
+	list-style-type: none;
 }
 
 @media only screen and (max-width: 30.063em) {
