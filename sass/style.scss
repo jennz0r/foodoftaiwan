@@ -17,7 +17,7 @@ body {
 }
 
 .text-padding {
-	margin: 1.4em 1em;
+	padding: 1.4em 1em;
 }
 
 .white-bkgd {
@@ -47,8 +47,6 @@ body {
 }
 
 .quote {
-	margin: 0 0 0.4em 1.7em;
-	font-size: 1.1em;
 	font-style: italic;
 }
 
@@ -84,5 +82,9 @@ body {
 	.top-bot-padding {
 		padding-top: 1.5em;
 		padding-bottom: 1.5em; 
+	}
+	.quote {
+		margin: 0 0 0.4em 1.7em;
+		font-size: 1.1em;
 	}
 }

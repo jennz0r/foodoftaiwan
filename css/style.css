@@ -12,7 +12,7 @@ body {
   padding: 0; }
 
 .text-padding {
-  margin: 1.4em 1em; }
+  padding: 1.4em 1em; }
 
 .white-bkgd {
   background-color: rgba(244, 255, 250, 0.8);
@@ -35,8 +35,6 @@ body {
   margin: 0 1em; }
 
 .quote {
-  margin: 0 0 0.4em 1.7em;
-  font-size: 1.1em;
   font-style: italic; }
 
 .quote-author {
@@ -63,4 +61,8 @@ body {
 @media only screen and (min-width: 40.063em) {
   .top-bot-padding {
     padding-top: 1.5em;
-    padding-bottom: 1.5em; } }
+    padding-bottom: 1.5em; }
+
+  .quote {
+    margin: 0 0 0.4em 1.7em;
+    font-size: 1.1em; } }
