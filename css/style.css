@@ -6,6 +6,8 @@ body {
   background-size: cover; }
 
 #book-img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
 
 .full-width-col-img {
@@ -16,10 +18,14 @@ body {
 
 .white-bkgd {
   background-color: rgba(244, 255, 250, 0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
 
 .light-green-bkgd {
   background-color: rgba(227, 233, 218, 0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
 
 .orange-bkgd {
@@ -30,6 +36,35 @@ body {
 
 .slick-dots {
   margin-left: 0; }
+
+#author-img {
+  position: relative; }
+
+#author-tooltip {
+  display: none;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  margin: 1.25em;
+  padding: 1.25em;
+  background: rgba(244, 255, 250, 0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-style: italic; }
+
+#author-tooltip:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 20px 20px;
+  border-color: rgba(244, 255, 250, 0.8) transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-left: -15px;
+  top: -20px;
+  right: 25%; }
 
 #press-quotes {
   margin: 0 1em; }

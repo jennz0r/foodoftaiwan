@@ -18,4 +18,9 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 5000
   });
+  $('#author-img').hover(function() {
+    $('#author-tooltip').fadeIn(500);
+  }, function() {
+    $('#author-tooltip').fadeOut(500);
+  });
 });
