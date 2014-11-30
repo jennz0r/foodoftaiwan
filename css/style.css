@@ -66,6 +66,9 @@ body {
   top: -20px;
   right: 25%; }
 
+#photographer-text a {
+  color: #047d8d; }
+
 #press-quotes {
   margin: 0 1em; }
 
