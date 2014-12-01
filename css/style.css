@@ -37,6 +37,13 @@ body {
 .slick-dots {
   margin-left: 0; }
 
+.white-arrows .slick-prev:before, .white-arrows .slick-next:before {
+  color: white;
+  opacity: 0.8; }
+
+.slick-prev, .slick-next {
+  margin: 0 1em; }
+
 #author-img {
   position: relative; }
 
