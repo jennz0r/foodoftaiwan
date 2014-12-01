@@ -44,6 +44,17 @@ body {
 .slick-prev, .slick-next {
   margin: 0 1em; }
 
+.social-media-icons {
+  float: right;
+  margin: 0 0.5em 1em 0.5em; }
+
+.social-media-icons-contact {
+  margin: 0 0.5em 1em 0; }
+
+.social-media-icon {
+  max-width: 1.75em;
+  opacity: 0.8; }
+
 #author-img {
   position: relative; }
 
@@ -93,8 +104,17 @@ body {
 .quote-img-right {
   margin-left: 0.3em; }
 
-.press-list {
+.press-list, .wheretobuy-list {
   list-style-type: none; }
+
+.wheretobuy-list {
+  margin-left: 0; }
+
+.wheretobuy {
+  padding: 1em;
+  text-align: center; }
+  .wheretobuy h3 {
+    margin-bottom: 0; }
 
 @media only screen and (max-width: 30.063em) {
   #book-img-mobile {
