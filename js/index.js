@@ -23,4 +23,9 @@ $(document).ready(function(){
   }, function() {
     $('#author-tooltip').fadeOut(500);
   });
+  $('#photographer-img').hover(function() {
+    $('#photographer-tooltip').fadeIn(500);
+  }, function() {
+    $('#photographer-tooltip').fadeOut(500);
+  });
 });
