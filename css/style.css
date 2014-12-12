@@ -69,7 +69,8 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  font-style: italic; }
+  font-style: italic;
+  pointer-events: none; }
 
 #author-tooltip:after {
   content: '';
@@ -82,7 +83,8 @@ body {
   z-index: 1;
   margin-left: -15px;
   top: -20px;
-  right: 25%; }
+  right: 25%;
+  pointer-events: none; }
 
 #photographer-tooltip {
   display: none;
@@ -95,7 +97,8 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  font-style: italic; }
+  font-style: italic;
+  pointer-events: none; }
 
 #photographer-tooltip:after {
   content: '';
@@ -108,7 +111,8 @@ body {
   z-index: 1;
   margin-left: -15px;
   top: -20px;
-  left: 25%; }
+  left: 25%;
+  pointer-events: none; }
 
 #photographer-text a {
   color: #047d8d; }

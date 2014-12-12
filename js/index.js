@@ -19,13 +19,13 @@ $(document).ready(function(){
     autoplaySpeed: 5000
   });
   $('#author-img').hover(function() {
-    $('#author-tooltip').fadeIn(500);
+    $('#author-tooltip').stop(true).fadeIn(500);
   }, function() {
-    $('#author-tooltip').fadeOut(500);
+    $('#author-tooltip').stop(true).fadeOut(500);
   });
   $('#photographer-img').hover(function() {
-    $('#photographer-tooltip').fadeIn(500);
+    $('#photographer-tooltip').stop(true).fadeIn(500);
   }, function() {
-    $('#photographer-tooltip').fadeOut(500);
+    $('#photographer-tooltip').stop(true).fadeOut(500);
   });
 });
